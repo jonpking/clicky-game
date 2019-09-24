@@ -1,17 +1,14 @@
 import React from "react";
+import "./style.css";
 
-class CharacterImage extends React.Component {
-    state = {
-        count: 0
-    };
-
-    render() {
-        return (
-            <div className="">
-
+CharacterImage = props => {
+    return (
+        <div className="card">
+            <div className="img-container">
+                <img alt={props.name} src={props.image} />
             </div>
-        );
-    }
+        </div>
+    );
 }
 
 export default CharacterImage;
