@@ -10,7 +10,10 @@ function App() {
   return (
     <Wrapper>
       <Title>Clicky-Game</Title>
-      <CharacterImage />
+      <CharacterImage
+        name={characters[0].name} 
+        image={characters[0].image}
+      />
     </Wrapper>
   );
 }
