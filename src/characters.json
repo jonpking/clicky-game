@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "image": "../public/images/batman.jpg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "image": "../public/images/captain-america.jpg",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "image": "../public/images/dr-doom.jpg",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "image": "../public/images/dr-strange.jpg",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "image": "../public/images/green-lantern.jpg",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "image": "../public/images/hellboy.jpg",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image": "../public/images/hulk.jpg",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "image": "../public/images/iron-man.jpg",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "image": "../public/images/joker.jpg",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "image": "../public/images/magneto.jpg",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "image": "../public/images/scott-pilgrim.jpg",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "image": "../public/images/spider-man.jpg",
+        "clicked": false
+    },
+    {
+        "id": 13,
+        "image": "../public/images/superman.jpg",
+        "clicked": false
+    },
+    {
+        "id": 14,
+        "image": "../public/images/venom.jpg",
+        "clicked": false
+    },
+    {
+        "id": 15,
+        "image": "../public/images/wolverine.jpg",
+        "clicked": false
+    },
+    {
+        "id": 16,
+        "image": "../public/images/wonder-woman.jpg",
+        "clicked": false
+    }
+]
