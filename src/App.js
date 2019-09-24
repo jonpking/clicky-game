@@ -4,7 +4,7 @@ import './App.css';
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import CharacterImage from "./components/CharacterImage";
-import character from "./characters.json";
+import characters from "./characters.json";
 
 function App() {
   return (
