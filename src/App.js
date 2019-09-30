@@ -4,8 +4,7 @@ import './App.css';
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import CharacterImage from "./components/CharacterImage";
-import characters from "./characters.json";
-import CharacterContainer from "./components/CharacterContainer";
+import Score from "./components/Score";
 
 class App extends Component {
 
@@ -28,15 +27,37 @@ class App extends Component {
       "https://gamepedia.cursecdn.com/allstars_gamepedia/thumb/f/fc/E.T.C._Hero_Portrait.png/120px-E.T.C._Hero_Portrait.png?version=ee6171387a93b02bab533306de3a1a2f",
       "https://gamepedia.cursecdn.com/allstars_gamepedia/thumb/1/16/Diablo_Hero_Portrait.png/120px-Diablo_Hero_Portrait.png?version=825f51e8c9ed3c0ce6c1b84e11fc3c0c"
     ],
-    clickedImages: []
+    clickedImages: [],
+    score: 0
+  }
+
+  shuffle = (array) => {
+    return array.sort(() => Math.random() - 0.5);
+  }
+
+  checkIfClicked = (event) => {
+    if (this.state.clickedImages.includes(event.target.src)) {
+      return this.setState({
+        score: 0,
+        clickedImages: []
+      })
+    }
+
+    this.setState({
+      score: this.state.score + 1,
+      clickedImages: [event.target.src, ...this.state.clickedImages],
+      image: this.shuffle(this.state.images)
+    })
+    console.log(this.state.clickedImages);
   }
 
   render() {
     return (
       <Wrapper>
         <Title>Clicky-Game</Title>
+        <Score score={this.state.score} />
         {this.state.images.map(image => {
-          return <CharacterImage image={image} />
+          return <CharacterImage onClick={this.checkIfClicked} image={image} />
         })}
       </Wrapper>
     )
