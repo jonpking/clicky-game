@@ -35,11 +35,9 @@ class App extends Component {
     return (
       <Wrapper>
         <Title>Clicky-Game</Title>
-        <CharacterContainer>
-          {this.state.images.map(image => {
-            return <CharacterImage image={image} />
-          })}
-        </CharacterContainer>
+        {this.state.images.map(image => {
+          return <CharacterImage image={image} />
+        })}
       </Wrapper>
     )
   };
