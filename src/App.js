@@ -22,7 +22,6 @@ class App extends Component {
       "https://gamepedia.cursecdn.com/allstars_gamepedia/thumb/7/72/Tracer_Hero_Portrait.png/120px-Tracer_Hero_Portrait.png?version=875e0becd3351dfa0b7975cbb92de2ce",
       "https://gamepedia.cursecdn.com/allstars_gamepedia/thumb/5/50/Tassadar_Hero_Portrait.png/120px-Tassadar_Hero_Portrait.png?version=3ff5bc8b1cfd4c49c561f75f173d99f8",
       "https://gamepedia.cursecdn.com/allstars_gamepedia/thumb/6/64/Thrall_Hero_Portrait.png/120px-Thrall_Hero_Portrait.png?version=72a85c0d2eb09bc6912e319062079faf",
-      "https://gamepedia.cursecdn.com/allstars_gamepedia/thumb/d/d6/Medivh_Hero_Portrait.png/120px-Medivh_Hero_Portrait.png?version=ae3d77469f64cdc8f3720dbb44c6d2b4",
       "https://gamepedia.cursecdn.com/allstars_gamepedia/thumb/0/08/Li_Li_Hero_Portrait.png/120px-Li_Li_Hero_Portrait.png?version=eecd64baa040d9235bcc3152d3e64d94",
       "https://gamepedia.cursecdn.com/allstars_gamepedia/thumb/d/d2/Jaina_Hero_Portrait.png/120px-Jaina_Hero_Portrait.png?version=cf9a1d564fb8c6948ce643585806c449",
       "https://gamepedia.cursecdn.com/allstars_gamepedia/thumb/f/fc/E.T.C._Hero_Portrait.png/120px-E.T.C._Hero_Portrait.png?version=ee6171387a93b02bab533306de3a1a2f",
