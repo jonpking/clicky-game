@@ -5,6 +5,7 @@ import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import CharacterImage from "./components/CharacterImage";
 import Score from "./components/Score";
+import ImageWrapper from "./components/ImageWrapper";
 
 class App extends Component {
 
@@ -56,9 +57,11 @@ class App extends Component {
       <Wrapper>
         <Title>Clicky-Game</Title>
         <Score score={this.state.score} />
-        {this.state.images.map(image => {
-          return <CharacterImage onClick={this.checkIfClicked} image={image} />
-        })}
+        <ImageWrapper>
+          {this.state.images.map(image => {
+            return <CharacterImage onClick={this.checkIfClicked} image={image} />
+          })}
+        </ImageWrapper>
       </Wrapper>
     )
   };
